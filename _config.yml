@@ -1,0 +1,11 @@
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Nick"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
