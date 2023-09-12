@@ -1,15 +1,2 @@
-defaults:
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      author: "Nick"
-  - scope:
-      path: ""
-    values:
-      layout: "default"
-
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme
+title: Nick Pfister
+description: Software engineer based in Los Angeles.

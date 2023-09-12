@@ -1,0 +1,9 @@
+- name: LinkedIn
+  link: https://www.linkedin.com/in/nick-pfister-817a159b
+  image: assets/images/linkedin.png
+- name: GitHub
+  link: https://github.com/nickpfister
+  image: assets/images/github.png
+- name: Email
+  link: mailto:hello@nickpfister.simplelogin.com
+  image: assets/images/envelope.png
