@@ -1,9 +1,9 @@
 - name: Home
   link: /
-  image: assets/images/house.png
+  image: /assets/images/house.png
 - name: About
   link: /about.html
-  image: assets/images/person.png
+  image: /assets/images/person.png
 - name: Portfolio
   link: /blog.html
-  image: assets/images/folder.png
+  image: /assets/images/folder.png

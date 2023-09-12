@@ -1,2 +1,8 @@
 title: Nick Pfister
-description: Software engineer based in Los Angeles.
+description: Software engineer with a passion for creating apps, games, graphics, and everything useful.
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+    values:
+      layout: "default"
