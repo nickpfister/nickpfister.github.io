@@ -1,15 +1,20 @@
 <div id="sidebar">
-  <h1>Nick Pfister</h1>
-  <img src="assets/images/me.jpeg" class="profileImage">
+  <div class="header">
+    <h1>Nick Pfister</h1>
+    <img src="assets/images/me.jpeg" class="profileImage">
+  </div>
   <div class="sideInfo">
     Software engineer with a passion for creating apps, games, graphics, and everything useful.
   </div>
   <div class="socials">
     {% for item in site.data.socials %}
-    <a href="{{ item.link }}" target="_blank" rel="noopener noreferrer">
-      <img src="{{ item.image }}" class="icon">
-    </a>
-  {% endfor %}
+      <a
+        href="{{ item.link }}"
+        target="_blank"
+        rel="noopener noreferrer">
+        <img src="{{ item.image }}" class="icon">
+      </a>
+    {% endfor %}
   </div>
   <hr style="width: 90%;">
   <nav class="links">
