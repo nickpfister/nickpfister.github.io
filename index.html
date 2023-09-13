@@ -2,33 +2,9 @@
 layout: default
 title: Home
 ---
-<h1>Hello, world!</h1>
 
-<div class="content">
-  I'm a software engineer currently on a planned career break to travel the world.
-  Previously, I was a features engineer on the hit mobile game
-  <a
-    href="https://apps.apple.com/us/app/disney-emoji-blitz-game/id1017551780"
-    target="_blank"
-    rel="noopener noreferrer">Disney Emoji Blitz</a>. 
-  Before that, I founded Planetary Gaming, which was selected for the highly competitive
-  <a
-    href="https://www.college.ucla.edu/2018/08/14/startup-ucla-accelerator-teams-meet-chancellor-block/"
-    target="_blank"
-    rel="noopener noreferrer">StartupUCLA Accelerator</a>
-  and the Barry Eggers seed prize.<br><br>
-  While I travel, I'm using my free time to become a better programmer - writing code 
-  all over the planet (including on a big yellow truck driving through some of the worst
-        roads of Africa).<br><br>
-  I'll be returning to my home in Los Angeles in April 2024, and am already on the lookout
-  for the next opportunity.
-  <br>
-  <h2>Skills</h2>
-  {% for item in site.data.skills %}
-    <li>
-      {{ item.name }}
-    </li>
-  {% endfor %}
-  <h2>Education</h2>
-  UCLA, Astrophysics - 2017
-</div>
+{% for post in site.home %}
+  <p>
+    {{ post.content | markdownify }}
+  </p>
+{% endfor %}
