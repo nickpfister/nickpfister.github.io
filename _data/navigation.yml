@@ -2,11 +2,11 @@
   link: /
   image: /assets/images/house.png
 - name: Portfolio
-  link: /blog.html
+  link: /portfolio.html
   image: /assets/images/folder.png
-- name: About
-  link: /about.html
-  image: /assets/images/person.png
+# - name: About
+#   link: /about.html
+#   image: /assets/images/person.png
 - name: Resume
   link: /assets/files/resume.pdf
   image: /assets/images/document.png

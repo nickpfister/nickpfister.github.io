@@ -1,0 +1,21 @@
+---
+layout: default
+title: Portfolio
+---
+<div class="postListItem">
+  {% for post in site.posts %}
+    {% if post.tags contains "portfolio" %}
+        {% if post.image != empty %}
+        <img src="{{ post.image }}">
+        {% endif %}
+        <div>
+          <h2>
+            <a href="{{ post.url }}">{{ post.title }}</a>
+          </h2>
+          {{ post.excerpt }}
+        </div>
+        <br>
+        <hr>
+    {% endif %}
+  {% endfor %}
+</div>
